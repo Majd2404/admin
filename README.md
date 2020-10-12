@@ -6,6 +6,7 @@
 + gem install activeadmin -v 2.8.0
 + rails db:migrate
 + rails db:seed
++ rails generate active_admin:resource ModalName
 + rails s
 #link to test: http://localhost:3000/admin/login
 #log in using:
