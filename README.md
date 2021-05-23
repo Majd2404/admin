@@ -4,6 +4,7 @@
 + gem 'activeadmin', '2.8.0'
 + gem install devise -v 4.7.2
 + gem install activeadmin -v 2.8.0
++ rails generate active_admin:install
 + rails db:migrate
 + rails db:seed
 + rails generate active_admin:resource ModalName
